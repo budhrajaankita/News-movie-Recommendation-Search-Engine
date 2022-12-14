@@ -1,1 +1,36 @@
 Hello!
+
+Information retrieval based search engine
+(Ankita Budhraja)
+ 
+
+Type of Project: Implementation
+
+Project Overview
+
+This project is influenced by class concepts and readings on Information retrieval, Web Crawling, Search Engines, text analysis with TF-IDF and BM25, Cosine similarity, etc.
+
+Intrigued by the ElasticSearch engine in the assignment 'Search Ranking and Evaluation'. I developed a similar search engine using Python for News Articles and Movie Dataset. Apart from having search queries to find word similarities based on them, I also developed a recommendation system for news articles and movies. 
+
+Following tasks can be performed by this program:
+a. searching for a news article mentioning keywords. For e.g. stock prices, kolkata india, october november etc.
+b. looking up for movies similar to a given movie as recommendations. For e.g. input a movie name “Jumaji” and get top 10 similar movie recommendations as output.
+c. looking up for news articles similar to a given headline. For e.g. Taking one headline as input “Edtech’s failure is Indian education sector's curse to bear” and getting top 5 article recommendations based on the query. 
+
+I also wanted to learn more about web crawling and scraping, hence, I tested the recommendation system on 2 datasets - one created by web scraping news articles from moneycontrol.com and another annotated dataset on “movies” from Kaggle.
+(https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset/ [License CC0: Public Domain])
+ 
+Technical Specification
+
+(Implementation on Google Colab)
+https://colab.research.google.com/drive/1cngza8xW9_Ae1_9hGp3vbfEgHBKF0CN3?usp=sharing
+
+Github Link
+https://github.com/budhrajaankita/202/blob/main/INFO202.ipynb
+
+Following libraries have been utilized in the implementation:
+
+Web Scraping Requests, BeautifulSoup
+Manipulating and creating datasets using Pandas
+Nltk, Sklearn, BM25Okapi
+Google.colab as the implementation platform
